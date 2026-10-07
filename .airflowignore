@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+logs/
+config/
+plugins/
+artifacts/
+__pycache__/

@@ -1,0 +1,27 @@
+{
+  "model": "RandomForestRegressor",
+  "target": "Usage (minutes)",
+  "features": [
+    "App",
+    "Notifications",
+    "Times Opened",
+    "DayOfWeek",
+    "DayOfMonth",
+    "IsWeekend",
+    "Notifications_x_TimesOpened"
+  ],
+  "train_rows": 160,
+  "test_rows": 40,
+  "validation": {
+    "rows": 200,
+    "columns": 5,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "date_app_repeats": 64
+  },
+  "metrics": {
+    "MAE": 16.83814255952381,
+    "RMSE": 21.479113377160285,
+    "R2": 0.37344142182805085
+  }
+}
