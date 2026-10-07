@@ -489,12 +489,4 @@ This reflects the core idea of practical MLOps: making Machine Learning workflow
 
 ---
 
-## Acknowledgement
-
-The project was inspired by Aman Kharwal's article:
-
-**MLOps Pipeline using Apache Airflow**
-
-https://amanxai.com/2025/01/20/mlops-pipeline-using-apache-airflow/
-
 The implementation was redesigned and extended with additional data validation, feature engineering, date-aware splitting, reusable preprocessing, model artifacts, Apache Airflow 3 TaskFlow API and Docker-based orchestration.
