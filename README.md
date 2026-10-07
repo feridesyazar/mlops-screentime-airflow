@@ -487,6 +487,5 @@ The key achievement is not only the prediction model itself, but the complete wo
 
 This reflects the core idea of practical MLOps: making Machine Learning workflows repeatable, maintainable and automatable.
 
----
 
-The implementation was redesigned and extended with additional data validation, feature engineering, date-aware splitting, reusable preprocessing, model artifacts, Apache Airflow 3 TaskFlow API and Docker-based orchestration.
+
