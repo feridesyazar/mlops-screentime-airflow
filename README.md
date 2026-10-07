@@ -262,40 +262,6 @@ This makes the environment reproducible and avoids relying on a machine-specific
 
 ---
 
-## Repository Structure
-
-A clean GitHub version of the project can be organized as:
-
-```text
-MLOps_Screentime_Prediction/
-│
-├── MLOps_Screentime_Prediction.ipynb
-├── train_pipeline.py
-├── screentime_mlops_dag.py
-├── screentime_analysis.csv
-│
-├── artifacts/
-│   ├── metrics.json
-│   ├── test_predictions.csv
-│   └── screentime_random_forest.joblib
-│
-├── docs/
-│   ├── From_Notebook_to_MLOps_Pipeline_Practical_Guide.pdf
-│   └── MLOps_From_Notebook_to_Pipeline_Guide.md
-│
-├── images/
-│   └── airflow_pipeline_success.png
-│
-├── .airflowignore
-├── .gitignore
-├── docker-compose.yaml
-├── requirements.txt
-└── README.md
-```
-
-Runtime folders such as `logs/`, `config/`, `plugins/`, `.ipynb_checkpoints/` and `__pycache__/` should not be committed to GitHub.
-
----
 
 ## Run the Notebook
 
